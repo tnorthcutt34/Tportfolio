@@ -1,0 +1,24 @@
+# Site settings
+title: My Portfolio
+description: Bookmark this to keep an eye on my project updates!
+author: Your Name
+
+# Theme
+theme: jekyll-theme-minimal
+
+# Build settings
+markdown: kramdown
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
