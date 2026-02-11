@@ -15,7 +15,7 @@ Tportfolio/
 │   └── example-project-2.md
 ├── assets/
 │   └── css/
-│       └── style.css     # Site styling
+│       └── custom.css    # Custom site styling
 ├── index.md              # Homepage
 ├── about.md              # About page
 └── README.md             # Repository description
@@ -71,7 +71,7 @@ Edit `about.md` to add information about yourself, your skills, education, and e
 
 ### 5. Customize Styling
 
-Edit `assets/css/style.css` to change:
+Edit `assets/css/custom.css` to change:
 - Colors
 - Fonts
 - Layout
@@ -81,7 +81,7 @@ Edit `assets/css/style.css` to change:
 
 ### Change Site Colors
 
-In `assets/css/style.css`, update these sections:
+In `assets/css/custom.css`, update these sections:
 - `header` background-color
 - Link colors (`a` tag)
 - Text colors
